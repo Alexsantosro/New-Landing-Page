@@ -1,0 +1,104 @@
+body {
+    background-color: #000000;
+    color: white;
+    max-width: 1200px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0 auto; /*Conteúdo Centralizado*/
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: white;
+}
+
+a:hover{
+    color:blueviolet;
+    transition: 0.3s all;
+}
+
+ul .btn-action {
+    border: 2px solid color #ffffff !important;
+    padding: 10px !important;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+span{
+    color: blueviolet;
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.3em;
+}
+
+img {
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input{
+    margin-top: 20px;
+    padding: 15px;
+    height: 10px;;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+form [type="button"] {
+ height: 50px;
+ width: 50%;
+ border-radius: 10px;
+ background-color:blueviolet;
+ color: #ffffff;
+ font-weight: bold;
+}
+
+form [type="button"]:hover {
+    background-color:rgb(123, 15, 224);
+    transition: 0.3s all;
+    cursor: pointer;
+   }
+
+aside {
+    justify-content: center;
+    align-items: center;
+}
